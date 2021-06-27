@@ -1,0 +1,26 @@
+//1 - HELPERS
+@import '1-helpers/variables';
+@import '1-helpers/functions';
+@import '1-helpers/mixings';
+
+//2 - BASIC
+@import '2-basic/reset';
+
+//3 - LAYOUTS
+@import '3-layout/footer';
+@import '3-layout/header';
+@import '3-layout/main';
+
+//4 - MODULES
+@import '4-modules/hero';
+@import '4-modules/latestnew';
+@import '4-modules/other';
+//5 - PAGES
+@import '5-pages/home';
+
+//vendor Siclk
+@import '../vendors/slick/slick.scss';
+@import '../vendors/slick/slick-theme.scss';
+
+//3 - LAYOUTS
+@import '3-layout/responsive';

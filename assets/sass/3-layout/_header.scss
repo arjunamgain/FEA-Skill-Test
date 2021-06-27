@@ -1,0 +1,15 @@
+.header{
+    background-color: $gray-color;
+       &__link{
+          list-style: none; 
+          display: block;
+          text-align: right;
+          li{
+             display:inline-block;
+             a{
+               padding: 1em;
+               display: block;
+             }
+          }
+       }
+}

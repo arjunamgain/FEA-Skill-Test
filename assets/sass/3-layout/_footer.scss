@@ -1,0 +1,77 @@
+.footer{
+    background-color: $dark_gray;
+    &.section{ 
+        padding-bottom: 2em;
+    }
+
+    &__menu {
+       // border-top: 1px solid rgb(255,255,255,0.1);
+        border-top: 1px solid #ffffff1e;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2em;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            li{
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    padding: 0.5em 2em;
+                    color: $white-color;
+                    letter-spacing: 0.02em;
+                    font-family: $alt-font-family;
+                    font-size: 14px;
+                }
+                &:first-child
+                    a{
+                        padding-left: 0 !important;
+                    }
+            }
+            &.footer__social {
+                flex-basis: 10%;
+                ul{
+                    li:first-child{
+                        a{
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__logo{
+        margin-bottom: 2em;
+    }
+    .footer_bottom {
+        margin-top: 10em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        ul{
+            display: flex; 
+            flex-wrap: wrap;
+                li{
+                    margin-right: 2em;
+                    color: $white-color;
+                    letter-spacing: 0.02em;
+                    font-family: $alt-font-family;
+                    font-size: 14px;
+                    a{
+                        color: rgba(255, 255, 255, 0.425);
+                        text-decoration: none;
+                    }
+                }
+             
+        }
+        p {
+            margin: 0;
+            color: rgba(255, 255, 255, 0.425);
+            font-size: 14px;
+            font-family: $alt-font-family;
+        }
+    }
+}  
+ 

@@ -1,0 +1,221 @@
+
+@media (max-width:1024px) {
+    .hero{
+        margin-left: 2.2em;
+    }
+    .heroimg {
+        margin-top: -16em;
+      }
+      .footer__menu ul.footer__social {
+        flex-basis: 16%;
+    }
+}
+
+@media (max-width: 768px) {
+    /*mobile navigation*/
+    .navbar-collapse {
+        background: #003A92;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        padding: 2em;
+    }
+    .navbar-toggler {
+        background: transparent;
+        border: 0;
+        padding: 0;
+    }
+    
+    .navbar-light .navbar-toggler-icon{
+        background-size: 120%;
+    }
+     
+    .mob_brand {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 2em;
+    }
+    
+    .hero__nav ul li a {
+        padding: 20px 0 !important;
+        color: #eee !important;
+    }
+    
+    .hero__nav ul li {
+        border-bottom: 1px solid #1a58b6;
+    }
+    
+    ul.dropdown-menu.mega_menu.show {
+        position: relative !important;
+        background: transparent;
+    }
+    
+    ul.dropdown-menu.mega_menu.show li {
+        border-bottom: 0;
+        padding-left: 1em;
+    }
+    
+    .hero__nav ul li a.show {
+        color: #aaa !important;
+    } 
+
+    .section{
+        padding:2em 0;
+       &__title{
+            font: normal bold 14px/20px $alt-font-family;
+            margin-bottom: 1em;
+       }
+    }
+    
+
+    .hero{
+        margin-left: $section-sapce-sm;
+        padding: 1em 0.4em 1em 0.4em;
+        min-height: 480px;
+        &__title{
+            padding: 1em 0 1em 0;
+            h1{
+            font: normal 400 32px/40px "Literata-Regular";
+            margin-bottom: 1em;
+            }
+        }
+    }
+    .heroimg{
+        margin-top: -9em;
+        .container{
+            max-width: calc((100%) / 1.09);
+            margin-right: 0;
+            padding-right: 0;
+        }
+    }
+    .lnews{
+        margin-top:0;
+        padding-top: 0;
+        .lncard{
+            &__title{
+                font: normal 400 20px/25px "Literata-Regular"
+            }
+        }
+    }
+    .lnews__right{
+        margin-top:0;
+    }
+    .see-all-news {
+        margin-top: 2em;
+    }
+    .mission{
+        min-height: 480px;
+         
+        &__content{
+            h2{
+                font: normal 400 24px/30px "Literata-Regular";
+                max-width: 100%;
+            }
+            P{
+                max-width: 100%;
+                font-size: 14px;
+            }
+        }
+    }
+    .missionimg{
+        margin-top: -16em;
+        padding-bottom: 4em;
+        .container{
+            max-width: calc((100%) / 1.09);
+            margin-left: 0;
+            padding-left: 0;
+        }
+    }
+    .beneficiaries{
+        figure{
+        figcaption{
+            font-size: 14px;;
+        }
+    }
+        
+    }
+    
+    .founders::after{
+        height: 280px;
+    }
+    .founders__name{
+        left: 0;
+        top: 6em;
+        font-size: 27px;
+
+    }
+        .footer{
+            position: relative;
+        }
+        .footer__menu ul {
+            flex-basis: 100%;
+        }
+
+        .footer__menu ul.footer__social {
+            flex-basis: 100%;
+            max-width: 100%;
+            margin-top: 36px;
+            justify-content: center;
+        }
+
+        .footer .footer_bottom {
+            margin-top: 5em;
+        }
+        .footer__menu>ul li {
+            flex-basis: 50%;
+            max-width: 50%;
+            margin-bottom: 1em;
+        }
+        .footer__menu ul li  a{
+            padding-left: 0;
+        } 
+        
+        .footer .footer_bottom {
+            margin-top: 30px;
+        }
+        
+        .footer_bottom ul {
+            margin-bottom: 22px;
+        }
+        
+        .footer__menu ul.footer__social {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+       
+ }
+
+ @media (max-width: 576px) {
+    .heroimg {
+        margin-top: -4em;
+    }
+    .mission{
+        margin-right: $section-sapce-sm;
+        min-height: 380px;
+    }
+    .missionimg{
+        margin-top: -5em;
+        padding-bottom: 2em;
+    }
+    .founders__content{
+        overflow: hidden;
+    }
+    .founders::after{
+        height: 180px;
+    }
+    .founders__name {
+        top: 63px;
+        font-size: 18px;
+        left: 15px;
+        padding: 0;
+    }
+  
+    
+   
+ }
+  
